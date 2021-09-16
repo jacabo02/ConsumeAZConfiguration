@@ -22,7 +22,7 @@ namespace ConsumeAZConfiguration
                 webBuilder.ConfigureAppConfiguration(config =>
                 {
                     var settings = config.Build();
-                    config.AddAzureAppConfiguration("Endpoint=https://appconfighd.azconfig.io;Id=u/+9-lab-s0:KxgnB80nsLmdFBN0Qmg3;Secret=NXr2eV2laUc63zAnqT872n58jw+3SwtNU4blW8xHdbE=");
+                    config.AddAzureAppConfiguration({Your Configuration Key End Point Here});
                 })
                 .UseStartup<Startup>()
                 );
