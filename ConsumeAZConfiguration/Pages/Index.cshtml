@@ -1,0 +1,11 @@
+﻿@page
+@model IndexModel
+@using Microsoft.Extensions.Configuration
+@inject IConfiguration Configuration
+@{
+    ViewData["Title"] = "Learn Azure";
+}
+
+<div class="text-center">
+    <h1 class="display-4">The name of database read from Az Configuration is @Configuration[{Your Configuration Key}]</h1>
+</div>
